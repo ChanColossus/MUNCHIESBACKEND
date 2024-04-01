@@ -22,7 +22,7 @@ const sendVerificationEmail = async (email, verificationToken) => {
     from: "munchiesandbevvies.com",
     to: email,
     subject: "Email Verification",
-    text: `Please click the following link to verify your email: http://192.168.0.143:8000/verify/${verificationToken}`,
+    text: `Please click the following link to verify your email: https://munchies-6tib.onrender.com/verify/${verificationToken}`,
   };
 
   //send the email
